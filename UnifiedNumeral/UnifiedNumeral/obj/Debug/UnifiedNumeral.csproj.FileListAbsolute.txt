@@ -4,3 +4,9 @@ C:\Users\PSCAD\Desktop\UnifiedNumeral\UnifiedNumeral\obj\Debug\UnifiedNumeral.cs
 C:\Users\PSCAD\Desktop\UnifiedNumeral\UnifiedNumeral\obj\Debug\UnifiedNumeral.csproj.CoreCompileInputs.cache
 C:\Users\PSCAD\Desktop\UnifiedNumeral\UnifiedNumeral\obj\Debug\UnifiedNumeral.dll
 C:\Users\PSCAD\Desktop\UnifiedNumeral\UnifiedNumeral\obj\Debug\UnifiedNumeral.pdb
+C:\Users\PSCAD\Desktop\tak kesah\UnifiedNumeral\UnifiedNumeral\bin\Debug\UnifiedNumeral.pdb
+C:\Users\PSCAD\Desktop\tak kesah\UnifiedNumeral\UnifiedNumeral\obj\Debug\UnifiedNumeral.csproj.AssemblyReference.cache
+C:\Users\PSCAD\Desktop\tak kesah\UnifiedNumeral\UnifiedNumeral\obj\Debug\UnifiedNumeral.csproj.CoreCompileInputs.cache
+C:\Users\PSCAD\Desktop\tak kesah\UnifiedNumeral\UnifiedNumeral\obj\Debug\UnifiedNumeral.csproj.CopyComplete
+C:\Users\PSCAD\Desktop\tak kesah\UnifiedNumeral\UnifiedNumeral\obj\Debug\UnifiedNumeral.dll
+C:\Users\PSCAD\Desktop\tak kesah\UnifiedNumeral\UnifiedNumeral\obj\Debug\UnifiedNumeral.pdb
