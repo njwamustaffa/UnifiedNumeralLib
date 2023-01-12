@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace UnifiedNumeral
 {
-    internal class Arabic
+    public partial class UnifiedNumeral
     {
+      
     }
 }

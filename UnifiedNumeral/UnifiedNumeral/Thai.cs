@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UnifiedNumeral
 {
-    internal class Thai
+    public partial class UnifiedNumeral
     {
     }
 }

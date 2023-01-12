@@ -48,6 +48,7 @@
     <Compile Include="Arabic.cs" />
     <Compile Include="Chinese.cs" />
     <Compile Include="Method.cs" />
+    <Compile Include="operation.cs" />
     <Compile Include="PropCons.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Roman.cs" />
