@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UnifiedNumeral; 
+
 
 namespace UnifiedNumeral
 {
@@ -19,7 +19,12 @@ namespace UnifiedNumeral
 
         public UnifiedNumeral()
         {
-            int _value = 0;
+            _value = 0;
+        }
+
+        public UnifiedNumeral(int a)
+        {
+            _value = a;
         }
     }
 }

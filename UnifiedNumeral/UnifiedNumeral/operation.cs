@@ -8,25 +8,40 @@ namespace UnifiedNumeral
 {
     public partial class UnifiedNumeral
     {
-        static void Main(string[] args)
+        public static UnifiedNumeral operator +(UnifiedNumeral op1, UnifiedNumeral op2)
         {
-            string s;
-            s = "MMCCCLXV";
-            Console.WriteLine("Original integer value: " + s);
-            Console.WriteLine("Integer value of the said Roman numerals:");
-            Console.WriteLine(roman_to_int(s));
-            s = "CCLIV";
-            Console.WriteLine("Original integer value: " + s);
-            Console.WriteLine("Integer value of the said Roman numerals:");
-            Console.WriteLine(roman_to_int(s));
-            s = "XLV";
-            Console.WriteLine("Original integer value: " + s);
-            Console.WriteLine("Integer value of the said Roman numerals:");
-            Console.WriteLine(roman_to_int(s));
-            s = "VIII";
-            Console.WriteLine("Original integer value: " + s);
-            Console.WriteLine("Integer value of the said Roman numerals:");
-            Console.WriteLine(roman_to_int(s));
+            UnifiedNumeral temp = new UnifiedNumeral();
+
+            temp._value = op1._value + op2._value;  
+
+            return temp;
+        }
+
+        public static UnifiedNumeral operator -(UnifiedNumeral op1, UnifiedNumeral op2)
+        {
+            UnifiedNumeral temp = new UnifiedNumeral();
+
+            temp._value = op1._value - op2._value;
+
+            return temp;
+        }
+
+        public static UnifiedNumeral operator *(UnifiedNumeral op1, UnifiedNumeral op2)
+        {
+            UnifiedNumeral temp = new UnifiedNumeral();
+
+            temp._value = op1._value * op2._value;
+
+            return temp;
+        }
+
+        public static UnifiedNumeral operator /(UnifiedNumeral op1, UnifiedNumeral op2)
+        {
+            UnifiedNumeral temp = new UnifiedNumeral();
+
+            temp._value = op1._value / op2._value;
+
+            return temp;
         }
     }
 }

@@ -8,7 +8,7 @@ namespace UnifiedNumeral
 {
     public partial class UnifiedNumeral
     {
-        public static int roman_to_int(string NumStr)
+        public int FromRoman(string NumStr)
         {
             var num = 0;
             for (int i = 0; i < NumStr.Length; i++)
@@ -26,9 +26,9 @@ namespace UnifiedNumeral
             return num;
         }
 
-        public static int find_value(char ArbChr)
+        private int find_value(char RomanChr)
         {
-            switch (ArbChr)
+            switch (RomanChr)
             {
                 case 'I': return 1;
                 case 'V': return 5;
@@ -39,6 +39,28 @@ namespace UnifiedNumeral
                 case 'M': return 1000;
                 default: return 0;
             }
+        }
+
+        public string ToRoman()
+        {
+            int DecStr = _value;
+            string RomanStr = string.Empty;
+            string[] romanLetters = { "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" };
+            int[] numbers = { 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 };
+            int i = 0;
+            while (DecStr != 0)
+            {
+                if (DecStr >= numbers[i])
+                {
+                    DecStr -= numbers[i];
+                    RomanStr += romanLetters[i];
+                }
+                else
+                {
+                    i++;
+                }
+            }
+            return RomanStr;
         }
     }
 }
