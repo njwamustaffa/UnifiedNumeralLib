@@ -41,7 +41,7 @@ namespace UnifiedNumeral
             }
         }
 
-        public string ToRoman()
+        public void ToRoman()
         {
             int DecStr = _value;
             string RomanStr = string.Empty;
@@ -60,7 +60,7 @@ namespace UnifiedNumeral
                     i++;
                 }
             }
-            return RomanStr;
+            _value = Convert.ToInt32(DecStr);
         }
     }
 }

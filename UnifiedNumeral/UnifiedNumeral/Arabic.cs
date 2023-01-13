@@ -59,7 +59,7 @@ namespace UnifiedNumeral
             return ArbStr;
         }
 
-        public string FromArabic(string ArbStr)
+        public void FromArabic(string ArbStr)
         {
 
             string DecStr = "";
@@ -108,7 +108,7 @@ namespace UnifiedNumeral
                 }
 
             }
-            return DecStr;
+            _value = Convert.ToInt32(DecStr);
         }
     }
 }

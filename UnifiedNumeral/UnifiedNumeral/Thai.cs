@@ -61,7 +61,7 @@ namespace UnifiedNumeral
             return ThaiStr;
         }
 
-        public string FromThai(string ThaiStr)
+        public void FromThai(string ThaiStr)
         {
 
             string DecStr = "";
@@ -110,7 +110,7 @@ namespace UnifiedNumeral
                 }
 
             }
-            return DecStr;
+            _value = Convert.ToInt32(DecStr);
         }
     }
 }
