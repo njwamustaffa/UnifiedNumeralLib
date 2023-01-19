@@ -13,7 +13,6 @@ C:\Users\PSCAD\Desktop\tak kesah\UnifiedNumeral\UnifiedNumeral\obj\Debug\Unified
 C:\Users\nadzm\OneDrive\Desktop\SEM 7\software design\unifiednumeralLib\UnifiedNumeral\UnifiedNumeral\bin\Debug\UnifiedNumeral.pdb
 C:\Users\nadzm\OneDrive\Desktop\SEM 7\software design\unifiednumeralLib\UnifiedNumeral\UnifiedNumeral\obj\Debug\UnifiedNumeral.csproj.AssemblyReference.cache
 C:\Users\nadzm\OneDrive\Desktop\SEM 7\software design\unifiednumeralLib\UnifiedNumeral\UnifiedNumeral\obj\Debug\UnifiedNumeral.csproj.CoreCompileInputs.cache
-C:\Users\nadzm\OneDrive\Desktop\SEM 7\software design\unifiednumeralLib\UnifiedNumeral\UnifiedNumeral\obj\Debug\UnifiedNumeral.csproj.CopyComplete
 C:\Users\nadzm\OneDrive\Desktop\SEM 7\software design\unifiednumeralLib\UnifiedNumeral\UnifiedNumeral\obj\Debug\UnifiedNumeral.dll
 C:\Users\nadzm\OneDrive\Desktop\SEM 7\software design\unifiednumeralLib\UnifiedNumeral\UnifiedNumeral\obj\Debug\UnifiedNumeral.pdb
 C:\Users\PSCAD\Desktop\unifiednumerallib\UnifiedNumeral\UnifiedNumeral\bin\Debug\UnifiedNumeral.dll
@@ -22,3 +21,4 @@ C:\Users\PSCAD\Desktop\unifiednumerallib\UnifiedNumeral\UnifiedNumeral\obj\Debug
 C:\Users\PSCAD\Desktop\unifiednumerallib\UnifiedNumeral\UnifiedNumeral\obj\Debug\UnifiedNumeral.csproj.CoreCompileInputs.cache
 C:\Users\PSCAD\Desktop\unifiednumerallib\UnifiedNumeral\UnifiedNumeral\obj\Debug\UnifiedNumeral.dll
 C:\Users\PSCAD\Desktop\unifiednumerallib\UnifiedNumeral\UnifiedNumeral\obj\Debug\UnifiedNumeral.pdb
+C:\Users\nadzm\OneDrive\Desktop\SEM 7\software design\UnifiedNumeralLib\UnifiedNumeral\UnifiedNumeral\bin\Debug\UnifiedNumeral.dll
