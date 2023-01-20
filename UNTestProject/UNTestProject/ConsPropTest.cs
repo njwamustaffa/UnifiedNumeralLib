@@ -36,7 +36,7 @@ namespace UNTestProject
 
             result = a1 + a2;
 
-            Assert.AreEqual(result.Value, 0);
+            Assert.AreEqual(result.Value, 15);
         }
 
         [TestMethod]
@@ -46,12 +46,12 @@ namespace UNTestProject
             UnifiedNumeral.UnifiedNumeral a2 = new UnifiedNumeral.UnifiedNumeral();
             UnifiedNumeral.UnifiedNumeral result;
 
-            a1.Value = 5;
-            a2.Value = 10;
+            a1.Value = 10;
+            a2.Value = 5;
 
             result = a1 - a2;
 
-            Assert.AreEqual(result.Value, 0);
+            Assert.AreEqual(result.Value, 5);
         }
 
         [TestMethod]
@@ -66,7 +66,7 @@ namespace UNTestProject
 
             result = a1 * a2;
 
-            Assert.AreEqual(result.Value, 0);
+            Assert.AreEqual(result.Value, 50);
         }
 
         [TestMethod]
@@ -76,12 +76,12 @@ namespace UNTestProject
             UnifiedNumeral.UnifiedNumeral a2 = new UnifiedNumeral.UnifiedNumeral();
             UnifiedNumeral.UnifiedNumeral result;
 
-            a1.Value = 5;
-            a2.Value = 10;
+            a1.Value = 10;
+            a2.Value = 5;
 
             result = a1 / a2;
 
-            Assert.AreEqual(result.Value, 0);
+            Assert.AreEqual(result.Value, 2);
         }
     }
 }
