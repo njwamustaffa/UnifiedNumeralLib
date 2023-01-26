@@ -8,7 +8,7 @@ namespace UnifiedNumeral
 {
     public partial class UnifiedNumeral
     {
-        public int FromRoman(string NumStr)
+        public void FromRoman(string NumStr)
         {
             var num = 0;
             for (int i = 0; i < NumStr.Length; i++)
@@ -22,8 +22,8 @@ namespace UnifiedNumeral
                     num += find_value(NumStr[i]);
                 }
             }
-
-            return num;
+            _value = Convert.ToInt32(num);
+            
         }
 
         private int find_value(char RomanChr)
@@ -41,7 +41,7 @@ namespace UnifiedNumeral
             }
         }
 
-        public void ToRoman()
+        public string ToRoman()
         {
             int DecStr = _value;
             string RomanStr = string.Empty;
@@ -60,7 +60,7 @@ namespace UnifiedNumeral
                     i++;
                 }
             }
-            _value = Convert.ToInt32(DecStr);
+            return RomanStr;
         }
     }
 }
