@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UnifiedNumeral</name>
+    </assembly>
+    <members>
+        <member name="T:UnifiedNumeral.UnifiedNumeral">
+            <summary>
+            partial class for unified number
+            </summary>
+        </member>
+        <member name="M:UnifiedNumeral.UnifiedNumeral.ToArabic">
+            <summary>
+            convert numeral to arabic
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UnifiedNumeral.UnifiedNumeral.FromArabic(System.String)">
+            <summary>
+            convert arabic to numeral
+            </summary>
+            <param name="ArbStr"></param>
+        </member>
+        <member name="M:UnifiedNumeral.UnifiedNumeral.ToChinese">
+            <summary>
+            convert numeral to chinese
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UnifiedNumeral.UnifiedNumeral.FromChinese(System.String)">
+            <summary>
+            convert chinese to numeral
+            </summary>
+            <param name="ChnStr"></param>
+        </member>
+        <member name="M:UnifiedNumeral.UnifiedNumeral.About">
+            <summary>
+            credential
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:UnifiedNumeral.UnifiedNumeral._value">
+            <summary>
+            field
+            </summary>
+        </member>
+        <member name="P:UnifiedNumeral.UnifiedNumeral.Value">
+            <summary>
+            properties
+            </summary>
+        </member>
+        <member name="M:UnifiedNumeral.UnifiedNumeral.#ctor">
+            <summary>
+            constructor without parameter
+            </summary>
+        </member>
+        <member name="M:UnifiedNumeral.UnifiedNumeral.#ctor(System.Int32)">
+            <summary>
+            constructor with parameter
+            </summary>
+            <param name="a"></param>
+        </member>
+        <member name="M:UnifiedNumeral.UnifiedNumeral.FromRoman(System.String)">
+            <summary>
+            convert numeral to roman
+            </summary>
+            <param name="NumStr"></param>
+        </member>
+        <member name="M:UnifiedNumeral.UnifiedNumeral.ToRoman">
+            <summary>
+            convert roman to numeral
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UnifiedNumeral.UnifiedNumeral.ToThai">
+            <summary>
+            convert numeral to thai 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UnifiedNumeral.UnifiedNumeral.FromThai(System.String)">
+            <summary>
+            convert thai to numeral
+            </summary>
+            <param name="ThaiStr"></param>
+        </member>
+    </members>
+</doc>

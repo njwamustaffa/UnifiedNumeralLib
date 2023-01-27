@@ -8,6 +8,10 @@ namespace UnifiedNumeral
 {
     public partial class UnifiedNumeral
     {
+        /// <summary>
+        /// convert numeral to roman
+        /// </summary>
+        /// <param name="NumStr"></param>
         public void FromRoman(string NumStr)
         {
             var num = 0;
@@ -41,6 +45,10 @@ namespace UnifiedNumeral
             }
         }
 
+        /// <summary>
+        /// convert roman to numeral
+        /// </summary>
+        /// <returns></returns>
         public string ToRoman()
         {
             int DecStr = _value;

@@ -6,8 +6,15 @@ using System.Threading.Tasks;
 
 namespace UnifiedNumeral
 {
+    /// <summary>
+    /// partial class for unified number
+    /// </summary>
     public partial class UnifiedNumeral
     {
+        /// <summary>
+        /// convert numeral to thai 
+        /// </summary>
+        /// <returns></returns>
         public string ToThai()
         {
 
@@ -61,6 +68,10 @@ namespace UnifiedNumeral
             return ThaiStr;
         }
 
+        /// <summary>
+        /// convert thai to numeral
+        /// </summary>
+        /// <param name="ThaiStr"></param>
         public void FromThai(string ThaiStr)
         {
 

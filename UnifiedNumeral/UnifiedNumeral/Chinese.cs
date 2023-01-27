@@ -8,6 +8,10 @@ namespace UnifiedNumeral
 {
     public partial class UnifiedNumeral
     {
+        /// <summary>
+        /// convert numeral to chinese
+        /// </summary>
+        /// <returns></returns>
         public string ToChinese()
         {
             int DecStr = _value;
@@ -34,6 +38,10 @@ namespace UnifiedNumeral
             return ChnStr;
         }
 
+        /// <summary>
+        /// convert chinese to numeral
+        /// </summary>
+        /// <param name="ChnStr"></param>
         public void FromChinese(string ChnStr)
         {
             string ChinStr = "";

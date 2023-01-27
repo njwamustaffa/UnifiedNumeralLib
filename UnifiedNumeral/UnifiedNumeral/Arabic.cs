@@ -8,6 +8,10 @@ namespace UnifiedNumeral
 {
     public partial class UnifiedNumeral
     {
+        /// <summary>
+        /// convert numeral to arabic
+        /// </summary>
+        /// <returns></returns>
         public string ToArabic()
         {
 
@@ -59,6 +63,10 @@ namespace UnifiedNumeral
             return ArbStr;
         }
 
+        /// <summary>
+        /// convert arabic to numeral
+        /// </summary>
+        /// <param name="ArbStr"></param>
         public void FromArabic(string ArbStr)
         {
 
