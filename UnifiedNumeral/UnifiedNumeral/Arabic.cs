@@ -66,7 +66,7 @@ namespace UnifiedNumeral
         /// <summary>
         /// convert arabic to numeral
         /// </summary>
-        /// <param name="ArbStr"></param>
+        /// <param name="ArbStr">Arabic character in string</param>
         public void FromArabic(string ArbStr)
         {
 

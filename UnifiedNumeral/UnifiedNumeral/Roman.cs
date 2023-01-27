@@ -11,7 +11,7 @@ namespace UnifiedNumeral
         /// <summary>
         /// convert numeral to roman
         /// </summary>
-        /// <param name="NumStr"></param>
+        /// <param name="NumStr">roman character in string</param>
         public void FromRoman(string NumStr)
         {
             var num = 0;

@@ -41,7 +41,7 @@ namespace UnifiedNumeral
         /// <summary>
         /// convert chinese to numeral
         /// </summary>
-        /// <param name="ChnStr"></param>
+        /// <param name="ChnStr">chinese character in string</param>
         public void FromChinese(string ChnStr)
         {
             string ChinStr = "";
@@ -50,81 +50,81 @@ namespace UnifiedNumeral
             int DecStr = 0, powten = 0, temp = 0;
             int c;
 
-            for (c = 0; c < ChnStr.Length; c+=2 )
+            for (c = 0; c < ChnStr.Length; c += 2)
             {
-                if(c < ChinStr.Length-1)
+                if (c < ChnStr.Length - 1)
                 {
-                    if (ChinStr[c] == '零')
+                    if (ChnStr[c] == '零')
                     {
                         DecStr = 0;
                     }
 
-                    else if (ChinStr[c] == '一')
+                    else if (ChnStr[c] == '一')
                     {
                         DecStr = 1;
                     }
 
-                    else if (ChinStr[c] == '二')
+                    else if (ChnStr[c] == '二')
                     {
                         DecStr = 2;
                     }
 
-                    else if (ChinStr[c] == '三')
+                    else if (ChnStr[c] == '三')
                     {
                         DecStr = 3;
                     }
 
-                    else if (ChinStr[c] == '四')
+                    else if (ChnStr[c] == '四')
                     {
                         DecStr = 4;
                     }
 
-                    else if (ChinStr[c] == '五')
+                    else if (ChnStr[c] == '五')
                     {
                         DecStr = 5;
                     }
 
-                    else if (ChinStr[c] == '六')
+                    else if (ChnStr[c] == '六')
                     {
                         DecStr = 6;
                     }
 
-                    else if (ChinStr[c] == '七')
+                    else if (ChnStr[c] == '七')
                     {
                         DecStr = 7;
                     }
 
-                    else if (ChinStr[c] == '八')
+                    else if (ChnStr[c] == '八')
                     {
                         DecStr = 8;
                     }
 
-                    else if (ChinStr[c] == '九')
+                    else if (ChnStr[c] == '九')
                     {
                         DecStr = 9;
                     }
 
-                    if (ChinStr[c+1] == '零')
+                    if (ChnStr[c + 1] == '零')
                     {
                         powten = 1;
                     }
 
-                    else if (ChinStr[c+1] == '十')
+                    else if (ChnStr[c + 1] == '十')
                     {
                         powten = 10;
                     }
 
-                    else if (ChinStr[c+1] == '百')
+                    else if (ChnStr[c + 1] == '百')
                     {
                         powten = 100;
                     }
 
-                    else if (ChinStr[c+1] == '千')
+                    else if (ChnStr[c + 1] == '千')
                     {
                         powten = 1000;
                     }
 
-                    else if (ChinStr[c+1] == '万')
+                    else if (ChnStr[c + 1] == '万')
                     {
                         powten = 10000;
                     }
@@ -134,62 +134,62 @@ namespace UnifiedNumeral
 
                 else
                 {
-                    if (ChinStr[c] == '零')
+                    if (ChnStr[c] == '零')
                     {
                         DecStr = 0;
                     }
 
-                    else if (ChinStr[c] == '一')
+                    else if (ChnStr[c] == '一')
                     {
                         DecStr = 1;
                     }
 
-                    else if (ChinStr[c] == '二')
+                    else if (ChnStr[c] == '二')
                     {
                         DecStr = 2;
                     }
 
-                    else if (ChinStr[c] == '三')
+                    else if (ChnStr[c] == '三')
                     {
                         DecStr = 3;
                     }
 
-                    else if (ChinStr[c] == '四')
+                    else if (ChnStr[c] == '四')
                     {
                         DecStr = 4;
                     }
 
-                    else if (ChinStr[c] == '五')
+                    else if (ChnStr[c] == '五')
                     {
                         DecStr = 5;
                     }
 
-                    else if (ChinStr[c] == '六')
+                    else if (ChnStr[c] == '六')
                     {
                         DecStr = 6;
                     }
 
-                    else if (ChinStr[c] == '七')
+                    else if (ChnStr[c] == '七')
                     {
                         DecStr = 7;
                     }
 
-                    else if (ChinStr[c] == '八')
+                    else if (ChnStr[c] == '八')
                     {
                         DecStr = 8;
                     }
 
-                    else if (ChinStr[c] == '九')
+                    else if (ChnStr[c] == '九')
                     {
                         DecStr = 9;
                     }
 
-                    temp = DecStr;
+                    temp += DecStr;
                 }
             }
             _value = temp;
-            
-           
+
+
         }
 
     }

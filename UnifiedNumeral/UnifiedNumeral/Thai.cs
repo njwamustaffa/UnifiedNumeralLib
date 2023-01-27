@@ -71,7 +71,7 @@ namespace UnifiedNumeral
         /// <summary>
         /// convert thai to numeral
         /// </summary>
-        /// <param name="ThaiStr"></param>
+        /// <param name="ThaiStr">Thai character in string</param>
         public void FromThai(string ThaiStr)
         {
 
