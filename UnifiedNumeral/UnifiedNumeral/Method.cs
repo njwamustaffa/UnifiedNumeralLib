@@ -9,9 +9,9 @@ namespace UnifiedNumeral
     public partial class UnifiedNumeral
     {
         /// <summary>
-        /// credential
+        /// Credential
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Credential for the Developer</returns>
         public static string About()
         {
             return "Unified Numeral library, created by Fatin Najwa, Nadzman Nasri, Amin Mazdin and Syukri haziq\n" +

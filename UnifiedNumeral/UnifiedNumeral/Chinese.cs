@@ -9,9 +9,9 @@ namespace UnifiedNumeral
     public partial class UnifiedNumeral
     {
         /// <summary>
-        /// convert numeral to chinese
+        /// Convert Decimal to Chinese
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Chinese string</returns>
         public string ToChinese()
         {
             int DecStr = _value;
@@ -39,7 +39,7 @@ namespace UnifiedNumeral
         }
 
         /// <summary>
-        /// convert chinese to numeral
+        /// Convert Chinese to Decimal
         /// </summary>
         /// <param name="ChnStr">chinese character in string</param>
         public void FromChinese(string ChnStr)

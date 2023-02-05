@@ -11,76 +11,108 @@
         </member>
         <member name="M:UnifiedNumeral.UnifiedNumeral.ToArabic">
             <summary>
-            convert numeral to arabic
+            Convert Decimal to Arabic
             </summary>
-            <returns></returns>
+            <returns>Arabic string</returns>
         </member>
         <member name="M:UnifiedNumeral.UnifiedNumeral.FromArabic(System.String)">
             <summary>
-            convert arabic to numeral
+            Convert Arabic to Decimal
             </summary>
             <param name="ArbStr">Arabic character in string</param>
         </member>
         <member name="M:UnifiedNumeral.UnifiedNumeral.ToChinese">
             <summary>
-            convert numeral to chinese
+            Convert Decimal to Chinese
             </summary>
-            <returns></returns>
+            <returns>Chinese string</returns>
         </member>
         <member name="M:UnifiedNumeral.UnifiedNumeral.FromChinese(System.String)">
             <summary>
-            convert chinese to numeral
+            Convert Chinese to Decimal
             </summary>
             <param name="ChnStr">chinese character in string</param>
         </member>
         <member name="M:UnifiedNumeral.UnifiedNumeral.About">
             <summary>
-            credential
+            Credential
             </summary>
+            <returns>Credential for the Developer</returns>
+        </member>
+        <member name="M:UnifiedNumeral.UnifiedNumeral.op_Addition(UnifiedNumeral.UnifiedNumeral,UnifiedNumeral.UnifiedNumeral)">
+            <summary>
+            Addition Operation
+            </summary>
+            <param name="op1">parameter 1</param>
+            <param name="op2">parameter 2</param>
+            <returns></returns>
+        </member>
+        <member name="M:UnifiedNumeral.UnifiedNumeral.op_Subtraction(UnifiedNumeral.UnifiedNumeral,UnifiedNumeral.UnifiedNumeral)">
+            <summary>
+            Subtraction Operation
+            </summary>
+            <param name="op1">Parameter 1</param>
+            <param name="op2">Parameter 2</param>
+            <returns></returns>
+        </member>
+        <member name="M:UnifiedNumeral.UnifiedNumeral.op_Multiply(UnifiedNumeral.UnifiedNumeral,UnifiedNumeral.UnifiedNumeral)">
+            <summary>
+            Multiplication Operation
+            </summary>
+            <param name="op1">Parameter 1</param>
+            <param name="op2">Parameter 2</param>
+            <returns></returns>
+        </member>
+        <member name="M:UnifiedNumeral.UnifiedNumeral.op_Division(UnifiedNumeral.UnifiedNumeral,UnifiedNumeral.UnifiedNumeral)">
+            <summary>
+            Division Operation
+            </summary>
+            <param name="op1">Parameter 1</param>
+            <param name="op2">Parameter 2</param>
             <returns></returns>
         </member>
         <member name="F:UnifiedNumeral.UnifiedNumeral._value">
             <summary>
-            field
+            Field
             </summary>
         </member>
         <member name="P:UnifiedNumeral.UnifiedNumeral.Value">
             <summary>
-            properties
+            Properties
             </summary>
         </member>
         <member name="M:UnifiedNumeral.UnifiedNumeral.#ctor">
             <summary>
-            constructor without parameter
+            Constructor without parameter
             </summary>
         </member>
         <member name="M:UnifiedNumeral.UnifiedNumeral.#ctor(System.Int32)">
             <summary>
-            constructor with parameter
+            Constructor with parameter
             </summary>
-            <param name="a"></param>
+            <param name="a"> Parameters</param>
         </member>
         <member name="M:UnifiedNumeral.UnifiedNumeral.FromRoman(System.String)">
             <summary>
-            convert numeral to roman
+            Convert Roman to Decimal
             </summary>
             <param name="NumStr">roman character in string</param>
         </member>
         <member name="M:UnifiedNumeral.UnifiedNumeral.ToRoman">
             <summary>
-            convert roman to numeral
+            Convert Decimal to Roman
             </summary>
-            <returns></returns>
+            <returns>Roman string</returns>
         </member>
         <member name="M:UnifiedNumeral.UnifiedNumeral.ToThai">
             <summary>
-            convert numeral to thai 
+            Convert Decimal to Thai 
             </summary>
             <returns></returns>
         </member>
         <member name="M:UnifiedNumeral.UnifiedNumeral.FromThai(System.String)">
             <summary>
-            convert thai to numeral
+            Convert Thai to Decimal
             </summary>
             <param name="ThaiStr">Thai character in string</param>
         </member>

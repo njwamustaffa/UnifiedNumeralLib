@@ -13,3 +13,17 @@ C:\Users\PSCAD\Desktop\UNFDLib\Debugging\DebuggingApp\obj\Debug\DebuggingApp.csp
 C:\Users\PSCAD\Desktop\UNFDLib\Debugging\DebuggingApp\obj\Debug\DebuggingApp.csproj.CopyComplete
 C:\Users\PSCAD\Desktop\UNFDLib\Debugging\DebuggingApp\obj\Debug\DebuggingApp.exe
 C:\Users\PSCAD\Desktop\UNFDLib\Debugging\DebuggingApp\obj\Debug\DebuggingApp.pdb
+C:\Users\nadzm\OneDrive\Desktop\SEM 7\software design\unfdLib\Debugging\DebuggingApp\bin\Debug\DebuggingApp.exe.config
+C:\Users\nadzm\OneDrive\Desktop\SEM 7\software design\unfdLib\Debugging\DebuggingApp\bin\Debug\DebuggingApp.exe
+C:\Users\nadzm\OneDrive\Desktop\SEM 7\software design\unfdLib\Debugging\DebuggingApp\bin\Debug\DebuggingApp.pdb
+C:\Users\nadzm\OneDrive\Desktop\SEM 7\software design\unfdLib\Debugging\DebuggingApp\bin\Debug\UnifiedNumeral.dll
+C:\Users\nadzm\OneDrive\Desktop\SEM 7\software design\unfdLib\Debugging\DebuggingApp\bin\Debug\UnifiedNumeral.pdb
+C:\Users\nadzm\OneDrive\Desktop\SEM 7\software design\unfdLib\Debugging\DebuggingApp\obj\Debug\DebuggingApp.csproj.AssemblyReference.cache
+C:\Users\nadzm\OneDrive\Desktop\SEM 7\software design\unfdLib\Debugging\DebuggingApp\obj\Debug\DebuggingApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\nadzm\OneDrive\Desktop\SEM 7\software design\unfdLib\Debugging\DebuggingApp\obj\Debug\DebuggingApp.Form1.resources
+C:\Users\nadzm\OneDrive\Desktop\SEM 7\software design\unfdLib\Debugging\DebuggingApp\obj\Debug\DebuggingApp.Properties.Resources.resources
+C:\Users\nadzm\OneDrive\Desktop\SEM 7\software design\unfdLib\Debugging\DebuggingApp\obj\Debug\DebuggingApp.csproj.GenerateResource.cache
+C:\Users\nadzm\OneDrive\Desktop\SEM 7\software design\unfdLib\Debugging\DebuggingApp\obj\Debug\DebuggingApp.csproj.CoreCompileInputs.cache
+C:\Users\nadzm\OneDrive\Desktop\SEM 7\software design\unfdLib\Debugging\DebuggingApp\obj\Debug\DebuggingApp.csproj.CopyComplete
+C:\Users\nadzm\OneDrive\Desktop\SEM 7\software design\unfdLib\Debugging\DebuggingApp\obj\Debug\DebuggingApp.exe
+C:\Users\nadzm\OneDrive\Desktop\SEM 7\software design\unfdLib\Debugging\DebuggingApp\obj\Debug\DebuggingApp.pdb

@@ -10,12 +10,12 @@ namespace UnifiedNumeral
     public partial class UnifiedNumeral
     {
         /// <summary>
-        /// field
+        /// Field
         /// </summary>
         private int _value;
 
         /// <summary>
-        /// properties
+        /// Properties
         /// </summary>
         public int Value
         {
@@ -24,7 +24,7 @@ namespace UnifiedNumeral
         }
 
         /// <summary>
-        /// constructor without parameter
+        /// Constructor without parameter
         /// </summary>
         public UnifiedNumeral()
         {
@@ -32,9 +32,9 @@ namespace UnifiedNumeral
         }
 
         /// <summary>
-        /// constructor with parameter
+        /// Constructor with parameter
         /// </summary>
-        /// <param name="a"></param>
+        /// <param name="a"> Parameters</param>
         public UnifiedNumeral(int a)
         {
             _value = a;

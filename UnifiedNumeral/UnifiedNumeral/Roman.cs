@@ -9,7 +9,7 @@ namespace UnifiedNumeral
     public partial class UnifiedNumeral
     {
         /// <summary>
-        /// convert numeral to roman
+        /// Convert Roman to Decimal
         /// </summary>
         /// <param name="NumStr">roman character in string</param>
         public void FromRoman(string NumStr)
@@ -46,9 +46,9 @@ namespace UnifiedNumeral
         }
 
         /// <summary>
-        /// convert roman to numeral
+        /// Convert Decimal to Roman
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Roman string</returns>
         public string ToRoman()
         {
             int DecStr = _value;

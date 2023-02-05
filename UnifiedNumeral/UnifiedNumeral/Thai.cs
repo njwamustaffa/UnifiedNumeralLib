@@ -12,7 +12,7 @@ namespace UnifiedNumeral
     public partial class UnifiedNumeral
     {
         /// <summary>
-        /// convert numeral to thai 
+        /// Convert Decimal to Thai 
         /// </summary>
         /// <returns></returns>
         public string ToThai()
@@ -69,7 +69,7 @@ namespace UnifiedNumeral
         }
 
         /// <summary>
-        /// convert thai to numeral
+        /// Convert Thai to Decimal
         /// </summary>
         /// <param name="ThaiStr">Thai character in string</param>
         public void FromThai(string ThaiStr)

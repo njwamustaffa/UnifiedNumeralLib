@@ -8,6 +8,12 @@ namespace UnifiedNumeral
 {
     public partial class UnifiedNumeral
     {
+        /// <summary>
+        /// Addition Operation
+        /// </summary>
+        /// <param name="op1">parameter 1</param>
+        /// <param name="op2">parameter 2</param>
+        /// <returns></returns>
         public static UnifiedNumeral operator +(UnifiedNumeral op1, UnifiedNumeral op2)
         {
             UnifiedNumeral temp = new UnifiedNumeral();
@@ -17,6 +23,12 @@ namespace UnifiedNumeral
             return temp;
         }
 
+        /// <summary>
+        /// Subtraction Operation
+        /// </summary>
+        /// <param name="op1">Parameter 1</param>
+        /// <param name="op2">Parameter 2</param>
+        /// <returns></returns>
         public static UnifiedNumeral operator -(UnifiedNumeral op1, UnifiedNumeral op2)
         {
             UnifiedNumeral temp = new UnifiedNumeral();
@@ -26,6 +38,12 @@ namespace UnifiedNumeral
             return temp;
         }
 
+        /// <summary>
+        /// Multiplication Operation
+        /// </summary>
+        /// <param name="op1">Parameter 1</param>
+        /// <param name="op2">Parameter 2</param>
+        /// <returns></returns>
         public static UnifiedNumeral operator *(UnifiedNumeral op1, UnifiedNumeral op2)
         {
             UnifiedNumeral temp = new UnifiedNumeral();
@@ -35,6 +53,12 @@ namespace UnifiedNumeral
             return temp;
         }
 
+        /// <summary>
+        /// Division Operation
+        /// </summary>
+        /// <param name="op1">Parameter 1</param>
+        /// <param name="op2">Parameter 2</param>
+        /// <returns></returns>
         public static UnifiedNumeral operator /(UnifiedNumeral op1, UnifiedNumeral op2)
         {
             UnifiedNumeral temp = new UnifiedNumeral();

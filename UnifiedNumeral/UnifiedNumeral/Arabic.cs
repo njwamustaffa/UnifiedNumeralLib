@@ -9,9 +9,9 @@ namespace UnifiedNumeral
     public partial class UnifiedNumeral
     {
         /// <summary>
-        /// convert numeral to arabic
+        /// Convert Decimal to Arabic
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Arabic string</returns>
         public string ToArabic()
         {
 
@@ -64,7 +64,7 @@ namespace UnifiedNumeral
         }
 
         /// <summary>
-        /// convert arabic to numeral
+        /// Convert Arabic to Decimal
         /// </summary>
         /// <param name="ArbStr">Arabic character in string</param>
         public void FromArabic(string ArbStr)
