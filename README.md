@@ -1,13 +1,17 @@
 # UnifiedNumeralLib
 
-the DLL version for the unified numeral
+This is a library for converting decimal numbers to Thailand character, Arabic Character, Chinese character, Romanian character and vice versa.
 
-link to unified numeral exe https://github.com/nadzmannasri/Unified-Number
+There are also some basic arithmetic operation to test the input given such as addition (+), subtraction (-), multiplication (*) and division (/).
 
-Gold standard link for roman converter https://www.calculatorsoup.com/calculators/conversions/roman-numeral-converter.php
+The DLL version for the unified numeral
 
-Gold standard link for chinese converter https://chinese.gratis/tools/chinesenumbers/
+Link to unified numeral exe https://github.com/nadzmannasri/Unified-Number
 
-Gold standard link for arabic converter https://calculator.swiftutors.com/english-to-arabic-numerals-converter.html
+Gold standard link for Roman converter https://www.calculatorsoup.com/calculators/conversions/roman-numeral-converter.php
 
-Gold standard link for arabic converter https://www.lexilogos.com/keyboard/thai.htm
+Gold standard link for Chinese converter https://chinese.gratis/tools/chinesenumbers/
+
+Gold standard link for Arabic converter https://calculator.swiftutors.com/english-to-arabic-numerals-converter.html
+
+Gold standard link for thai converter https://www.lexilogos.com/keyboard/thai.htm
