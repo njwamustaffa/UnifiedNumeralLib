@@ -14,4 +14,4 @@ Gold standard link for Chinese converter https://chinese.gratis/tools/chinesenum
 
 Gold standard link for Arabic converter https://calculator.swiftutors.com/english-to-arabic-numerals-converter.html
 
-Gold standard link for thai converter https://www.lexilogos.com/keyboard/thai.htm
+Gold standard link for Thai converter https://www.lexilogos.com/keyboard/thai.htm
